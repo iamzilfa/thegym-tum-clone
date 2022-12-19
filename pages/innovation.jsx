@@ -1,6 +1,6 @@
 const innovation = () => {
   return (
-    <div>innovation</div>
+    <div className="h-screen flex flex-col justify-center items-center font-bold text-5xl">Innovation Pge</div>
   )
 }
 

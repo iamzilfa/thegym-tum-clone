@@ -1,6 +1,6 @@
 const community = () => {
   return (
-    <div>community</div>
+    <div className="h-screen flex flex-col justify-center items-center font-bold text-5xl">Community Page</div>
   )
 }
 

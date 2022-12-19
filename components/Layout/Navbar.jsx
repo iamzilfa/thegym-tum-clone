@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Image src={Menu} alt="Menu" className="menu" />
               </div>
               <div className="flex items-center gap-3">
-                <Image src={Logo} alt="logo" />
+               <Link href="/"><Image src={Logo} alt="logo" /></Link> 
                 <ul className="flex flex-col font-normal leading-[0.875rem] tracking-[0.0125rem] text-xs text-white">
                   <li>Technical</li>
                   <li>Universtity</li>
@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
             <div className="flex">
               <ul className="items-center mr-[3.375rem] gap-x-6 hidden xl:flex">
-              <li><Link href="/" className="nav-li">NEWS AND EVENTS</Link></li> 
+              <li><Link href="/news" className="nav-li">NEWS AND EVENTS</Link></li> 
               <Link href="/studie" className="nav-li">STUDIES</Link>
               <li><Link href="/learning" className="nav-li">LIFELONG LEARNING</Link></li> 
               <li><Link href="/research" className="nav-li">REASEARCH</Link></li> 

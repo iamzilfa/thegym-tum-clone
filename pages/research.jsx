@@ -1,6 +1,6 @@
 const research = () => {
   return (
-    <div>research</div>
+    <div className="h-screen flex flex-col justify-center items-center font-bold text-5xl">Research Page</div>
   )
 }
 

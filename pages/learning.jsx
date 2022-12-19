@@ -1,6 +1,6 @@
 const learning = () => {
   return (
-    <div>learning</div>
+    <div className="h-screen flex flex-col justify-center items-center font-bold text-5xl">Learning Page</div>
   )
 }
 

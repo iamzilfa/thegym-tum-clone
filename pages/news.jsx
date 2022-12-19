@@ -1,6 +1,6 @@
 const news = () => {
   return (
-    <div>News and Events pages</div>
+    <div className="h-screen flex flex-col justify-center items-center font-bold text-5xl">News and Events pages</div>
   )
 }
 
