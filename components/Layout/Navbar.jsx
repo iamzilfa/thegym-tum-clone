@@ -3,6 +3,7 @@ import Menu from "../../public/assets/vectors/menu.svg";
 import Logo from "../../public/assets/vectors/tum-logo.svg";
 import Search from "../../public/assets/vectors/search.svg";
 import Bars from "../../public/assets/vectors/bars.svg";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -25,13 +26,13 @@ const Navbar = () => {
             </div>
             <div className="flex">
               <ul className="items-center mr-[3.375rem] gap-x-6 hidden xl:flex">
-                <li className="nav-li">NEWS AND EVENTS</li>
-                <li className="nav-li">STUDIES</li>
-                <li className="nav-li">LIFELONG LEARNING</li>
-                <li className="nav-li">REASEARCH</li>
-                <li className="nav-li">INNOVATION</li>
-                <li className="nav-li">COMMUNITY</li>
-                <li className="nav-li">ABOUT TUM</li>
+              <li><Link href="/" className="nav-li">NEWS AND EVENTS</Link></li> 
+              <Link href="/studie" className="nav-li">STUDIES</Link>
+              <li><Link href="/learning" className="nav-li">LIFELONG LEARNING</Link></li> 
+              <li><Link href="/research" className="nav-li">REASEARCH</Link></li> 
+              <li><Link href="/innovation" className="nav-li">INNOVATION</Link></li> 
+              <li><Link href="/community" className="nav-li">COMMUNITY</Link></li> 
+              <li><Link href="/about" className="nav-li">ABOUTTUM</Link></li> 
               </ul>
               <div className="flex mr-[1.25rem]">
                 <span className="text-gray-500 font-medium hover:text-white">
